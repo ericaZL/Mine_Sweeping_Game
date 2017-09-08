@@ -75,6 +75,11 @@ void mine_sweeping(char minemap[row][col], char cur[row][col]) {
     while (left != num || left == row*col) {
         printf("\nPlease choose a coordinate: row(1-row) col(1-col)：\n");
         scanf("%d%d", &x, &y);
+        while (x > row || y > col || x < 1 || y < 1) {
+          printf("INVALID. Please try again.\n");
+          printf("Please choose a coordinate: row(1-row) col(1-col)：\n");
+          scanf("%d%d", &x, &y);
+        }
         printf("\n");
         if (minemap[x][y] == '*') {
             printf("BOMB! Mine-Reveal-Map: \n");
