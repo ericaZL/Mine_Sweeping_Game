@@ -1,5 +1,5 @@
 # Mine Sweeper
-A customizable mine-sweeper game for users to play through interactions in C. Queues implemented with linked lists and dynamic memory are used to store the positions of mines for the result displays based on the progress of the game. 
+A customizable mine-sweeper game for users to play through interactions in C.  Queues implemented with linked lists and dynamic memory are used to store the positions of mines for the result displays based on the progress of the game.  
 (Also my first game written in C!)
 
 # How to play?
